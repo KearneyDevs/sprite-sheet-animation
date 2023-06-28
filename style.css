@@ -17,6 +17,7 @@ body {
 .Character_spritesheet {
   animation: moveSpriteSheet 1s steps(4) infinite;
   width: calc(128px * var(--pixel-size));
+  position: absolute;
 }
 
 .Character_shadow {
@@ -27,6 +28,18 @@ body {
 
 .pixelart {
   image-rendering: pixelated;
+}
+
+.face-right {
+  top: calc(-32px * var(--pixel-size));
+}
+
+.face-up {
+  top: calc(-64px * var(--pixel-size));
+}
+
+.face-left {
+  top: calc(-96px * var(--pixel-size));
 }
 
 @keyframes moveSpriteSheet {

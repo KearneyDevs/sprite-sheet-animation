@@ -1,5 +1,5 @@
 :root {
-  --pixel-size: 16;
+  --pixel-size: 8;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
   height: calc(32px * var(--pixel-size));
   overflow: hidden;
   position: relative;
+  margin: 0 auto;
 }
 
 .Character_spritesheet {
